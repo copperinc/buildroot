@@ -4,14 +4,14 @@
 #
 ################################################################################
 
-CARGO_VERSION = 0.26.0
+CARGO_VERSION = 0.33.0
 CARGO_SITE = $(call github,rust-lang,cargo,$(CARGO_VERSION))
 CARGO_LICENSE = Apache-2.0 or MIT
 CARGO_LICENSE_FILES = LICENSE-APACHE LICENSE-MIT
 
-CARGO_DEPS_SHA512 = 6ed2a1644c9b18fc24ddad5350d41b6c36cd5b62de4cf0b748a57b589f4f0ac12f91461989158d58d0892bf6fc2c1626cf574e7e2b9da4b0e35f72dfd88f9048
-CARGO_DEPS_SITE = https://src.fedoraproject.org/repo/pkgs/cargo/$(CARGO_DEPS_SOURCE)/sha512/$(CARGO_DEPS_SHA512)
-CARGO_DEPS_SOURCE = cargo-$(CARGO_VERSION)-vendor.tar.xz
+CARGO_DEPS_SHA256 = 78d19be7410f942cd5c30a4ad715555a75036ed97c0078130ae51c380b0cfd45
+CARGO_DEPS_SITE = http://ftp.ubuntu.com/ubuntu/ubuntu/pool/universe/c/cargo
+CARGO_DEPS_SOURCE = cargo_$(CARGO_VERSION).orig-vendor.tar.gz
 
 CARGO_INSTALLER_VERSION = 4f994850808a572e2cc8d43f968893c8e942e9bf
 CARGO_INSTALLER_SITE = $(call github,rust-lang,rust-installer,$(CARGO_INSTALLER_VERSION))
@@ -28,6 +28,7 @@ HOST_CARGO_DEPENDENCIES = \
 	host-libhttpparser \
 	host-libssh2 \
 	host-libcurl \
+	host-libgit2 \
 	host-rustc \
 	host-cargo-bin
 
