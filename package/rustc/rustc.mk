@@ -5,10 +5,11 @@
 ################################################################################
 
 RUSTC_ARCH = $(call qstrip,$(BR2_PACKAGE_HOST_RUSTC_ARCH))
+RUSTC_CLIB = $(call qstrip,$(BR2_PACKAGE_HOST_RUSTC_CLIB))
 RUSTC_ABI = $(call qstrip,$(BR2_PACKAGE_HOST_RUSTC_ABI))
 
 ifeq ($(BR2_PACKAGE_HOST_RUSTC_TARGET_ARCH_SUPPORTS),y)
-RUSTC_TARGET_NAME = $(RUSTC_ARCH)-unknown-linux-gnu$(RUSTC_ABI)
+RUSTC_TARGET_NAME = $(RUSTC_ARCH)-unknown-linux-$(RUSTC_CLIB)$(RUSTC_ABI)
 endif
 
 ifeq ($(HOSTARCH),x86)
