@@ -49,3 +49,4 @@ LIBGIT2_CONF_OPTS += -DCURL=OFF
 endif
 
 $(eval $(cmake-package))
+$(eval $(host-cmake-package))
