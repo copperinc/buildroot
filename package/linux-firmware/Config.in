@@ -410,4 +410,9 @@ config BR2_PACKAGE_LINUX_FIRMWARE_QAT_C62X
 
 endmenu
 
+config BR2_PACKAGE_LINUX_FIRMWARE_FILES
+	string "Firmware files"
+	help
+	  A space-separated list of firmware files.
+
 endif
