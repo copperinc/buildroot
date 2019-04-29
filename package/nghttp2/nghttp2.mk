@@ -20,3 +20,4 @@ endef
 NGHTTP2_POST_INSTALL_TARGET_HOOKS += NGHTTP2_INSTALL_CLEAN_HOOK
 
 $(eval $(autotools-package))
+$(eval $(host-autotools-package))
