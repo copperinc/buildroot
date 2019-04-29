@@ -120,11 +120,12 @@ endef
 LIBCURL_POST_INSTALL_TARGET_HOOKS += LIBCURL_TARGET_CLEANUP
 endif
 
-HOST_LIBCURL_DEPENDENCIES = host-openssl
+HOST_LIBCURL_DEPENDENCIES = host-nghttp2 host-openssl
 HOST_LIBCURL_CONF_OPTS = \
 	--disable-manual \
 	--disable-ntlm-wb \
 	--disable-curldebug \
+	--with-nghttp2 \
 	--with-ssl \
 	--without-gnutls \
 	--without-mbedtls \
