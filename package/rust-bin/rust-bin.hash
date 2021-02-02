@@ -1,9 +1,9 @@
-# From https://static.rust-lang.org/dist/rustc-1.38.0-i686-unknown-linux-gnu.tar.xz.sha256
-# Verified using https://static.rust-lang.org/dist/rustc-1.38.0-i686-unknown-linux-gnu.tar.xz.asc
-sha256 183dca6a4d746b833804e658267c1a60cdb446a36d4e4f8d29b04cfd29d886d5  rustc-1.38.0-i686-unknown-linux-gnu.tar.xz
-# From https://static.rust-lang.org/dist/rustc-1.38.0-x86_64-unknown-linux-gnu.tar.xz.sha256
-# Verified using https://static.rust-lang.org/dist/rustc-1.38.0-x86_64-unknown-linux-gnu.tar.xz.asc
-sha256 0fedde3406cf3367ceb00f493698e6bfc3264bd7f7253c85de7a042b45f873fa  rustc-1.38.0-x86_64-unknown-linux-gnu.tar.xz
+# From https://static.rust-lang.org/dist/rust-1.38.0-i686-unknown-linux-gnu.tar.xz.sha256
+# Verified using https://static.rust-lang.org/dist/rust-1.38.0-i686-unknown-linux-gnu.tar.xz.asc
+sha256 5c488cea89cef760362868eb790896bdf31b3109e392f0d54b27b74bd214df33  rust-1.38.0-i686-unknown-linux-gnu.tar.xz
+# From https://static.rust-lang.org/dist/rust-1.38.0-x86_64-unknown-linux-gnu.tar.xz.sha256
+# Verified using https://static.rust-lang.org/dist/rust-1.38.0-x86_64-unknown-linux-gnu.tar.xz.asc
+sha256 4e9a2ef90679a66c9f8c62b113b018866303645a69c4812d8290d8a7162ea190  rust-1.38.0-x86_64-unknown-linux-gnu.tar.xz
 # From https://static.rust-lang.org/dist/rust-std-1.38.0-aarch64-unknown-linux-gnu.tar.xz.sha256
 # Verified using https://static.rust-lang.org/dist/rust-std-1.38.0-aarch64-unknown-linux-gnu.tar.xz.asc
 sha256 b931843898b0457fa92b8ef1521ff460bef525451ed786897cfaa6f7baed4105  rust-std-1.38.0-aarch64-unknown-linux-gnu.tar.xz
