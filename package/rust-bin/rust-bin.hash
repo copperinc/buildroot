@@ -43,6 +43,20 @@ sha256  e42b64c5710d3982f22ed744ea21ef2f0196df908c6a673b6df550904583b1c3  rust-s
 # From https://static.rust-lang.org/dist/rust-std-1.48.0-x86_64-unknown-linux-gnu.tar.xz.sha256
 # Verified using https://static.rust-lang.org/dist/rust-std-1.48.0-x86_64-unknown-linux-gnu.tar.xz.asc
 sha256  1c00a6a0dabbf6290728b09f9307d9fa6cc985487f727075c68acd4a600ef3f8  rust-std-1.48.0-x86_64-unknown-linux-gnu.tar.xz
+# From https://static.rust-lang.org/dist/rust-std-1.48.0-arm-unknown-linux-musleabi.tar.xz asc verified
+sha256  334508a51652a5d694a2a7061d22a08b296cd3f19af0978257a2e08c976aec5a  rust-std-1.48.0-arm-unknown-linux-musleabihf.tar.xz
+# From https://static.rust-lang.org/dist/rust-std-1.48.0-arm-unknown-linux-musleabihf.tar.xz asc verified
+sha256  848c0a8794525af16c30e5e13c1aee8e999e00f06332f5cc30afe4965b7fd411  rust-std-1.48.0-mipsel-unknown-linux-musl.tar.xz
+# From https://static.rust-lang.org/dist/rust-std-1.48.0-armv7-unknown-linux-musleabihf.tar.xz asc verified
+sha256  23a0f874c62863335f1f2f3f6bc40e0d917ece74a23f1a12633fa89438882aa4  rust-std-1.48.0-arm-unknown-linux-musleabi.tar.xz
+# From https://static.rust-lang.org/dist/rust-std-1.48.0-i686-unknown-linux-musl.tar.xz asc verified
+sha256  8733999c27dd094396fcd7df5961512bdc0f6c5ad2a981d97d7f414e38bea6b3  rust-std-1.48.0-i686-unknown-linux-musl.tar.xz
+# From https://static.rust-lang.org/dist/rust-std-1.48.0-mips-unknown-linux-musl.tar.xz asc verified
+sha256  4f485d8800f90898705686b873765a4c0fe909d1127d5b091a01979bc32f01c0  rust-std-1.48.0-x86_64-unknown-linux-musl.tar.xz
+# From https://static.rust-lang.org/dist/rust-std-1.48.0-mipsel-unknown-linux-musl.tar.xz asc verified
+sha256  867cb1b5c104810c81ae29664b7f581c6326cf7abdf9e54b9c852204239af15c  rust-std-1.48.0-mips-unknown-linux-musl.tar.xz
+# From https://static.rust-lang.org/dist/rust-std-1.48.0-x86_64-unknown-linux-musl.tar.xz asc verified
+sha256  a6d047fb0fbc9cc05c47080189ee0dcce468387ce7900f6e183af8c16466fb1c  rust-std-1.48.0-armv7-unknown-linux-musleabihf.tar.xz
 # Locally generated
 sha256  62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a  LICENSE-APACHE
 sha256  23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3  LICENSE-MIT
